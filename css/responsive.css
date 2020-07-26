@@ -1,0 +1,196 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .Hire-button a {
+        padding: 7px 32px;
+        margin-top:33px;
+    }
+
+    .main-menu ul li {
+        display: inline;
+        margin-left: 32px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-menu ul li {
+        margin-left: 33px;
+    }
+    .Hire-button a {
+        padding: 7px 32px;
+        margin-top:33px;
+    }
+    .features-area {
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+    .slider-inner h2 {
+        font-size: 65px;
+        margin-bottom: 25px;
+    }
+    .btn {
+        padding: 11px 46px;
+    }
+   .service-wrapper {
+    padding: 45px 40px;
+    margin-right:10px;
+    margin-left: 10px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .Hire-button a{
+        display: none;
+    }
+    .header-area {
+        padding: 0px 55px;
+        padding-top: 44px;
+    }
+    .features-area {
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+    .slider-inner h2 {
+        font-size: 65px;
+    }
+    .slider-inner {
+        margin-top: 80px;
+    }
+    .fe-border .col-xl-4 {
+        border-bottom:1px solid #D6D6D6;
+    }
+
+    .fe-border .col-xl-4:last-child{
+        border-bottom:none;  
+    }
+    .single-features {
+        padding: 70px 100px;
+    }
+    .about-image img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .about-text .btn {
+        padding: 10px 38px;
+    }
+    .subscribe-form input {
+        width: 22%;
+    }
+    .brand-area{
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .Hire-button a{
+        display: none;
+    }
+
+    .header-area {
+        padding: 0px 55px;
+        padding-top: 44px;
+    }
+    .features-area {
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+ 
+    .slider-inner h2 {
+        font-size: 40px;
+    }
+    .slider-inner {
+        margin-top: 85px;
+    }
+    .fe-border .col-xl-4 {
+        border-bottom:1px solid #D6D6D6;
+    }
+
+    .fe-border .col-xl-4:last-child{
+        border-bottom:none;  
+    }
+
+    .about-image img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .about-text .btn {
+        padding: 10px 38px;
+    }
+    .about-area{
+        padding:50px 0px;
+    }
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .service-area{
+        padding-top:70px;
+        padding-bottom:40px;
+    }
+    .pricing-item {
+        width: 100%;
+    }
+    .testimonial-item {
+        padding: 40px 50px;
+    }
+
+    .brand-area{
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+    .footer-widget {
+        padding-left: 41px;
+    }
+    .copyright-text p {
+        text-align: center;
+    }
+
+    .footer-menue{
+        margin-right: 80px;
+    }
+    
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+    .Hire-button a{
+        display: none;
+    }
+   
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
